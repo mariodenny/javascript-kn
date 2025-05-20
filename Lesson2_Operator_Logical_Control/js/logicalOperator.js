@@ -17,7 +17,6 @@ document.getElementById("loginForm").addEventListener("submit", function(event){
     }else{
         document.getElementById("errorMsg").innerHTML = "Login Failed"
     }
-
     // || -> salah satu pernyataan benar hasilnya true, jika dua dua salah maka false
     //  ! -> membalikan fakta , jadi True = False
 })

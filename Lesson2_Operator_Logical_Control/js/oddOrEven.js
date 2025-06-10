@@ -1,5 +1,5 @@
 document.getElementById("numberSubmit").addEventListener("submit", function(event){
-    event.preventDefault()
+    event.preventDefault() // Mencegah suatu event jalan sendiri, contoh form ke submit otomatis, atau reload
 
     let number = document.getElementById("number").value
     console.log(number);
